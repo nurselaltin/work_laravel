@@ -16,12 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/admin',function (){
+   return view('admin');
+});
+Route::get('/bilgiler/{ad?}/{soyad?}/{no?}', 'AdminController@index');
 
-Route:: resource('page','PageController');
-Route::get('/anasayfa','PageController@index');
-//? : değerlerin gelmeme durumunda es geç
-Route::get('/info/{name?}/{soyad?}/{yas?}','PageController@index');
+Route::get('/hakkimizda', 'AdminController@hakkimizda')->name('hakkimizda');
+Route::get('/geri','AdminController@index')->name('geri');;
 
+
+//------------------------------------------------------
+
+
+Route::get('/','HomeController@index')->name('index');
+Route::get('/account','HomeController@account')->name('account');
+Route::get('/profile','HomeController@profile')->name('profile');
 
 
 
