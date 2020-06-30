@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('ornekler.layout')
 
 @section('content')
     Burası Hesap....
