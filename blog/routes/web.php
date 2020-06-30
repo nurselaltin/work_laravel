@@ -40,10 +40,7 @@ Route::get('/profile','HomeController@profile')->name('profile');
 
 //   BLOG
 
-Route::get('/',function (){
-    return view('front.homepage');
-});
-
+Route::get('/','Front\Homepage@index')->name('homepage');
 
 
 
