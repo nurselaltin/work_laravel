@@ -40,7 +40,16 @@ Route::get('/profile','HomeController@profile')->name('profile');
 
 //   BLOG
 
+//Homepage
 Route::get('/','Front\Homepage@index')->name('homepage');
+
+//Kategori Sayfası
+
+Route::get('/kategori/{slug}','Front\Homepage@categoriesPost')->name('categories.post');
+
+//Single Blog
+Route::get('/{category}/{slug}','Front\Homepage@singlePost')->name('single.post');
+
 
 
 
