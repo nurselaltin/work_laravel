@@ -43,12 +43,22 @@ Route::get('/profile','HomeController@profile')->name('profile');
 //Homepage
 Route::get('/','Front\Homepage@index')->name('homepage');
 
+Route::get('/sayfa','Front\Homepage@index');
+
+//İletişim Sayfası
+Route::get('/iletisim','Front\Homepage@contact')->name('contact.page');
+Route::post('/iletisim','Front\Homepage@contactPost')->name('contact.post');
+//Page
+Route::get('/{pages}','Front\Homepage@pages')->name('page');
+
 //Kategori Sayfası
 
 Route::get('/kategori/{slug}','Front\Homepage@categoriesPost')->name('categories.post');
 
 //Single Blog
 Route::get('/{category}/{slug}','Front\Homepage@singlePost')->name('single.post');
+
+
 
 
 
