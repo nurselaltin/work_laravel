@@ -1,15 +1,34 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+/*
+|--------------------------------------------------------------------------
+|BACK ROUTE
+|--------------------------------------------------------------------------
+|
+|
+*/
+
+Route::get('admin/panel','Back\Dashboard@index')->name('admin.dashboard');
+Route::get('admin/giris','Back\AuthController@login')->name('admin.login');
+Route::post('admin/giris','Back\AuthController@loginPost')->name('admin.login.post');
+//Route::post('admin/cikis','Back\AuthController@logout')->name('admin.logout');
+
+
+
+
+
+
+
+
+
+
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+|FRONT ROUTE
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
 |
 */
 
