@@ -19,6 +19,7 @@ Route::prefix('admin')->name('admin.')->middleware('isLogin')->group(function ()
 //Giriş yapmadan içeriye erişilmeye çalışıyorsa logine yönlendir
 Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function (){
     Route::get('panel','Back\Dashboard@index')->name('dashboard');
+    Route::resource('makaleler','Back\ArticleController');
     Route::get('cikis','Back\AuthController@logout')->name('logout');
 });
 
