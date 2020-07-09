@@ -6,6 +6,8 @@ namespace App\Http\Controllers\Back;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Articles;
+use Illuminate\Support\Str;
+use App\Models\Category;
 class ArticleController extends Controller
 {
     /**
@@ -18,8 +20,6 @@ class ArticleController extends Controller
 
         $articles = Articles::orderBy('created_at','desc')->get();
 
-
-
         return view('back.Articles.index',compact('articles'));
     }
 
@@ -30,7 +30,8 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        return 'create';
+        $categories = Category::all();
+        return view('back.articles.create',compact('categories'));
     }
 
     /**
@@ -41,7 +42,23 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $article = new Articles();
+        $article->title = $request->title;
+        $article->content = $request->content;
+        $article->category_id = $request->category;
+        $article->view = 0;
+        $article->state = 1;
+        $article->slug = Str::slug($request->title,'-');
+
+        if($request->hasFile('image')){
+
+            $imageName = $article->slug.'.'.$request->image->getClientOriginalExtension();
+            $request->image->move(public_path('uploads'),$imageName);
+            $article->image = 'uploads/'.$imageName ;
+        }
+        $article->save();
+        return redirect()->route('admin.makaleler.index');
     }
 
     /**
