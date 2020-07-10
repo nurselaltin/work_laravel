@@ -42,10 +42,13 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-
+        $request->validate([
+            'title'  => 'min:3',
+            'image'  => 'required|image|mimes:jpeg,png,jpg|max:2048'
+        ]);
         $article = new Articles();
         $article->title = $request->title;
-        $article->content = $request->content;
+        $article->content = $request->icerik;
         $article->category_id = $request->category;
         $article->view = 0;
         $article->state = 1;
@@ -58,6 +61,7 @@ class ArticleController extends Controller
             $article->image = 'uploads/'.$imageName ;
         }
         $article->save();
+        toastr()->success('Makale başarıyla oluşturuldu!', 'Başarılı');
         return redirect()->route('admin.makaleler.index');
     }
 
@@ -80,7 +84,10 @@ class ArticleController extends Controller
      */
     public function edit($id)
     {
-        //
+
+        $article = Articles::findOrFail($id);
+        $categories = Category::all();
+        return view('back.Articles.update',compact('categories','article'));
     }
 
     /**
@@ -92,7 +99,30 @@ class ArticleController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
+        $request->validate([
+            'title'  => 'min:3',
+            'image'  => 'image|mimes:jpeg,png,jpg|max:2048'
+        ]);
+
+
+        $article = Articles::findOrFail($id);
+        $article->title = $request->title;
+        $article->content = $request->icerik;
+        $article->category_id = $request->category;
+        $article->view = 0;
+        $article->state = 1;
+        $article->slug = Str::slug($request->title,'-');
+
+        if($request->hasFile('image')){
+
+            $imageName = $article->slug.'.'.$request->image->getClientOriginalExtension();
+            $request->image->move(public_path('uploads'),$imageName);
+            $article->image = 'uploads/'.$imageName ;
+        }
+        $article->save();
+        toastr()->success('Makale başarıyla güncellendi!', 'Başarılı');
+        return redirect()->route('admin.makaleler.index');
     }
 
     /**

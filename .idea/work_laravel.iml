@@ -102,6 +102,7 @@
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/yoeunes/toastr" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
