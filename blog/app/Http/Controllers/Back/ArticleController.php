@@ -6,8 +6,10 @@ namespace App\Http\Controllers\Back;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Articles;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use App\Models\Category;
+
 class ArticleController extends Controller
 {
     /**
@@ -134,5 +136,44 @@ class ArticleController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public  function  delete($id){
+        Articles::findOrFail($id)->delete();
+        toastSuccess('Makale silinen makalelere taşındı');
+        return redirect()->route('admin.makaleler.index');
+
+    }
+
+    public  function  trashed(){
+
+        $articles =  Articles::onlyTrashed()->orderBy('deleted_at','desc')->get();
+        return view('back.Articles.trashed',compact('articles'));
+    }
+
+    public  function recover($id){
+
+        Articles::onlyTrashed()->find($id)->restore();
+        toastSuccess('Makale kurtarıldı');
+        return redirect()->back();
+    }
+
+    public  function  hardDelete($id){
+
+        $article = Articles::onlyTrashed()->find($id);
+        //yazıya ait resime de silelim
+        if(File::exists($article->image)){
+            File::delete(public_path($article->image));
+        }
+        //Veritabanından yazıyı sil
+        $article->forceDelete();
+        return redirect()->back();
+    }
+
+    public  function  switch(Request $request){
+        $article = Articles::findOrFail($request->id);
+        $article->state = $request->state=='true' ? 1 : 0;
+        $article->save();
+
+
     }
 }

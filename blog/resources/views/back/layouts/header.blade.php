@@ -22,3 +22,8 @@
     @toastr_css
 
 </head>
+<style>
+    .slow .toggle-group { transition: left 0.7s; -webkit-transition: left 0.7s; }
+    .fast .toggle-group { transition: left 0.1s; -webkit-transition: left 0.1s; }
+    .quick .toggle-group { transition: none; -webkit-transition: none; }
+</style>
