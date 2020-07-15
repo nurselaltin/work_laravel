@@ -173,7 +173,5 @@ class ArticleController extends Controller
         $article = Articles::findOrFail($request->id);
         $article->state = $request->state=='true' ? 1 : 0;
         $article->save();
-
-
     }
 }

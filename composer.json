@@ -1,0 +1,6 @@
+{
+    "require": {
+        "laravel/helpers": "^1.2",
+        "yoeunes/toastr": "^1.2"
+    }
+}

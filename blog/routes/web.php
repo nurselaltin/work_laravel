@@ -18,6 +18,8 @@ Route::prefix('admin')->name('admin.')->middleware('isLogin')->group(function ()
 
 //Giriş yapmadan içeriye erişilmeye çalışıyorsa logine yönlendir
 Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function (){
+
+      //Makale Routes
     Route::get('panel','Back\Dashboard@index')->name('dashboard');
     Route::get('/articles/trashed','Back\ArticleController@trashed')->name('trashed.articles');
     Route::resource('makaleler','Back\ArticleController');
@@ -25,6 +27,13 @@ Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function ()
     Route::get('/delete/{id}','Back\ArticleController@delete')->name('delete.article');
     Route::get('/deleteArticles/{id}','Back\ArticleController@hardDelete')->name('hardDelete.article');
     Route::get('/recover/{id}','Back\ArticleController@recover')->name('recover');
+ 
+
+    //Kategori Routes
+    Route::get('kategori','Back\CategoryController@index')->name('category.index');
+    Route::post('kategori/create','Back\CategoryController@create')->name('category.create');
+    Route::get('kategori/state','Back\CategoryController@switch')->name('category.switch');
+
     Route::get('cikis','Back\AuthController@logout')->name('logout');
 });
 

@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/blog/app/Http/Controllers/Front/Homepage.php" line="71" mnemonic="2" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="859799e5-c7b1-4fc7-a120-aea58e802e25" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/back/Articles/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1018">
+              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/back/Articles/trashed.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assets</find>
+      <find>timezone</find>
+      <find>article</find>
+      <find>&lt;script src=&quot;</find>
+      <find>&lt;link href=&quot;</find>
+      <find>tables</find>
+      <find>searc</find>
+      <find>alert</find>
+      <find>sb</find>
+      <find>bg-login-image</find>
+      <find>users</find>
+      <find>logout</find>
+      <find>Ready</find>
+      <find>Select</find>
+      <find>&lt;!-- Logout Modal--&gt;</find>
+      <find>Ready to le</find>
+      <find>vale</find>
+      <find>dash</find>
+      <find>active</find>
+      <find>data</find>
+      <find>order</find>
+      <find>Gener</find>
+      <find>slug</find>
+      <find>version</find>
+      <find>public_pat</find>
+      <find>config</find>
+      <find>toastr.php</find>
+      <find>sil</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>asset</replace>
+      <replace>&lt;script src=&quot;{{asset('front/')}}/</replace>
+      <replace>&lt;script src=&quot;{{asset/}}</replace>
+      <replace>&lt;script src=&quot;{{asset(/back)}}</replace>
+      <replace>&lt;script src=&quot;{{asset(back/)}}</replace>
+      <replace>&lt;link href=&quot;{{asset('back/')}}/</replace>
+      <replace>&lt;script src=&quot;{{asset('back/')}}/</replace>
+      <replace>admins</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\work_laravel\blog\config</dir>
+      <dir>C:\xampp\htdocs\work_laravel\blog\resources\views\back\layouts</dir>
+      <dir>C:\xampp\htdocs\work_laravel\blog</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Front/Category.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Models/Category.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/singlePost.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/widgets/category.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/homepage.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/widgets/articlesList.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/categoriesPost.blade.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2020_07_02_161626_pages.php" />
+        <option value="$PROJECT_DIR$/blog/database/seeds/PageSeeder.php" />
+        <option value="$PROJECT_DIR$/blog/app/Models/Page.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/pages.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/front/contact.blade.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2020_07_02_225214_contact.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2020_07_03_232943_contact.php" />
+        <option value="$PROJECT_DIR$/blog/app/Models/Contact.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Front/Homepage.php" />
+        <option value="$PROJECT_DIR$/blog/public/back/index.html" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/blog/public/back/login.html" />
+        <option value="$PROJECT_DIR$/blog/public/back/css/sb-admin-2.css" />
+        <option value="$PROJECT_DIR$/blog/public/back/css/sb-admin-2.min.css" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2020_07_04_101303_admin.php" />
+        <option value="$PROJECT_DIR$/blog/config/auth.php" />
+        <option value="$PROJECT_DIR$/blog/database/seeds/AdminSeeder.php" />
+        <option value="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/blog/database/seeds/UserSeeder.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Back/Auth.php" />
+        <option value="$PROJECT_DIR$/blog/app/Models/Admin.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/Auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Middleware/isAdmin.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Middleware/isLogin.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Back/Dashboard.php" />
+        <option value="$PROJECT_DIR$/blog/database/seeds/ArticlesSeeder.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/layouts/menu.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/layouts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/blog/config/app.php" />
+        <option value="$PROJECT_DIR$/blog/vendor/yoeunes/toastr/README.md" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/Articles/create.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Back/AuthController.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/Articles/update.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2020_06_30_141951_articles.php" />
+        <option value="$PROJECT_DIR$/blog/app/Models/Articles.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/Articles/trashed.blade.php" />
+        <option value="$PROJECT_DIR$/blog/routes/web.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Back/ArticleController.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/back/Articles/index.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/blog/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/blog/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/blog/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/blog/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/blog/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/blog/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/blog/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/blog/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/blog/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/blog/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/blog/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/blog/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/blog/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/blog/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/blog/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/blog/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/blog/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/blog/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/blog/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/blog/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/blog/vendor/composer" />
+      <path value="$PROJECT_DIR$/blog/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/blog/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/blog/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/blog/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/blog/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/blog/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/blog/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/blog/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/blog/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/blog/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/blog/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/blog/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/blog/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/blog/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/blog/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/blog/vendor/yoeunes/toastr" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1010" />
+    <option name="y" value="5" />
+    <option name="width" value="860" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="work_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work_laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work_laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\work_laravel\blog\app\Http\Controllers" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\app\Models" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\resources\views\front" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\resources\views\ornekler" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\app\Http\Controllers\Ornekler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\work_laravel\blog\resources\views\back\Articles" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\resources\views" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\resources\views\front" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\app\Http" />
+      <recent name="C:\xampp\htdocs\work_laravel\blog\public\assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="859799e5-c7b1-4fc7-a120-aea58e802e25" name="Default Changelist" comment="" />
+      <created>1592858022145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592858022145</updated>
+      <workItem from="1592858023367" duration="669000" />
+      <workItem from="1592888365329" duration="1016000" />
+      <workItem from="1592905562300" duration="696000" />
+      <workItem from="1592916653031" duration="1555000" />
+      <workItem from="1592976648596" duration="377000" />
+      <workItem from="1592977044901" duration="9196000" />
+      <workItem from="1593070612279" duration="1552000" />
+      <workItem from="1593156181392" duration="9000" />
+      <workItem from="1593495019939" duration="17188000" />
+      <workItem from="1593590606956" duration="8196000" />
+      <workItem from="1593692372443" duration="7265000" />
+      <workItem from="1593716247115" duration="4445000" />
+      <workItem from="1593807513971" duration="3751000" />
+      <workItem from="1593839171707" duration="7341000" />
+      <workItem from="1593891485421" duration="5506000" />
+      <workItem from="1593898825418" duration="672000" />
+      <workItem from="1593930452685" duration="18000" />
+      <workItem from="1594015329489" duration="7869000" />
+      <workItem from="1594191378800" duration="582000" />
+      <workItem from="1594218541222" duration="2293000" />
+      <workItem from="1594275078401" duration="5109000" />
+      <workItem from="1594313408011" duration="3703000" />
+      <workItem from="1594357326541" duration="611000" />
+      <workItem from="1594363851904" duration="5225000" />
+      <workItem from="1594484591696" duration="2302000" />
+      <workItem from="1594558128046" duration="1755000" />
+      <workItem from="1594560570035" duration="1814000" />
+      <workItem from="1594567616095" duration="130000" />
+      <workItem from="1594705984109" duration="5313000" />
+      <workItem from="1594740794607" duration="559000" />
+    </task>
+    <task id="LOCAL-00001" summary="laravel yapısı kuruldu.">
+      <created>1592858656374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592858656374</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Custom Helper oluşturuldu..">
+      <created>1592999870604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592999870604</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Blog projesi; layouts ve homepage oluşturuldu.">
+      <created>1593517305463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593517305463</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homepage sayfası:kategori ve article kısmı ayarlandı.">
+      <created>1593532264712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593532264712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Single Post ve Kategoriler sayfaları ayarlandı.">
+      <created>1593612202034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593612202034</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Menuler oluşturuldu,sayfalama(pagination) ayarlandı.">
+      <created>1593807660337</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593807660337</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Admin:Login ve dashboard ayarlandı.">
+      <created>1593852741856</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593852741856</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Admin:Middleware oluşturuldu.">
+      <created>1593898720867</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593898720867</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Admin:Front\Homepage.">
+      <created>1594015597857</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594015597857</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Admin:Makale sayfası eklendi">
+      <created>1594025456903</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594025456903</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Admin:Makale olustur sayfası ayarlandı.">
+      <created>1594325193773</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594325193773</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Admin:Makale güncelleme işlemi yapıldı,toastr paketi eklendi">
+      <created>1594401885570</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594401885570</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Admin:Soft Delete,Geri dönüşüm kutusu eklendi,silme işlemi yapıldı">
+      <created>1594716088782</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594716088782</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="106717000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="laravel yapısı kuruldu." />
+    <MESSAGE value="Custom Helper oluşturuldu.." />
+    <MESSAGE value="Blog projesi; layouts ve homepage oluşturuldu." />
+    <MESSAGE value="Homepage sayfası:kategori ve article kısmı ayarlandı." />
+    <MESSAGE value="Single Post ve Kategoriler sayfaları ayarlandı." />
+    <MESSAGE value="Menuler oluşturuldu,sayfalama(pagination) ayarlandı." />
+    <MESSAGE value="Admin:Login ve dashboard ayarlandı." />
+    <MESSAGE value="Admin:Middleware oluşturuldu." />
+    <MESSAGE value="Admin:Front\Homepage." />
+    <MESSAGE value="Admin:Makale sayfası eklendi" />
+    <MESSAGE value="Admin:Makale olustur sayfası ayarlandı." />
+    <MESSAGE value="Admin:Makale güncelleme işlemi yapıldı,toastr paketi eklendi" />
+    <MESSAGE value="Admin:Soft Delete,Geri dönüşüm kutusu eklendi,silme işlemi yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin:Soft Delete,Geri dönüşüm kutusu eklendi,silme işlemi yapıldı" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/front/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2020_07_02_225214_contact.php" />
+    <entry file="file://$PROJECT_DIR$/blog/app/Models/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/back/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-end-line="692" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/layouts/footer.php" />
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/front/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="45" column="81" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/front/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/back/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/back/css/sb-admin-2.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="9" column="163218" selection-start-line="9" selection-start-column="163218" selection-end-line="9" selection-end-column="163218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/back/css/sb-admin-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="10805" column="158" lean-forward="true" selection-start-line="10805" selection-start-column="19" selection-end-line="10805" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2020_07_04_101142_admins.php" />
+    <entry file="file://$PROJECT_DIR$/blog/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/seeds/AdminSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/seeds/UserSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/seeds/CategorySeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Models/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/Auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/EncryptCookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/isAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="e#38#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/isLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="e#38#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/back/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="21" selection-end-column="80" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Back/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2020_06_30_123749_categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2020_07_04_101303_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/seeds/ArticlesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/layouts/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="40" column="101" selection-start-line="40" selection-start-column="101" selection-end-line="40" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2020_07_02_161626_pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2020_07_03_232943_contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/StorageLinkCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/uploads/reference-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="165" column="52" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/vendor/yoeunes/toastr/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="65">
+            <caret line="184" column="61" selection-start-line="184" selection-start-column="61" selection-end-line="184" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Front/Homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="40" />
+          <folding>
+            <element signature="e#46#70#0#PHP" expanded="true" />
+            <element signature="e#249#427#0#PHP" />
+            <element signature="e#433#699#0#PHP" />
+            <element signature="e#1404#1777#0#PHP" />
+            <element signature="e#2076#2478#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/Articles/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/Articles/update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2020_06_30_141951_articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Models/Articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Back/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#44#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Back/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+            <element signature="e#345#513#0#PHP" />
+            <element signature="e#633#775#0#PHP" />
+            <element signature="e#945#1853#0#PHP" />
+            <element signature="e#1986#2044#0#PHP" />
+            <element signature="e#2195#2395#0#PHP" />
+            <element signature="e#2588#3507#0#PHP" />
+            <element signature="e#3652#3847#0#PHP" />
+            <element signature="e#3853#4037#0#PHP" />
+            <element signature="e#4043#4237#0#PHP" />
+            <element signature="e#4248#4297#0#PHP" />
+            <element signature="e#4300#4491#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/Articles/trashed.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/back/Articles/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1018">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
