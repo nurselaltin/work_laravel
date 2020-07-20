@@ -33,6 +33,8 @@ Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function ()
     Route::get('kategori','Back\CategoryController@index')->name('category.index');
     Route::post('kategori/create','Back\CategoryController@create')->name('category.create');
     Route::get('kategori/state','Back\CategoryController@switch')->name('category.switch');
+    Route::get('kategori/getData','Back\CategoryController@getData')->name('category.getdata');
+    Route::post('kategori/update','Back\CategoryController@update')->name('category.update');
 
     Route::get('cikis','Back\AuthController@logout')->name('logout');
 });
