@@ -50,6 +50,7 @@
                                     </td>
                                     <td>
                                          <a category-id="{{$category->id}}" class="btn btn-sm btn-primary text-white edit-click" title="Kategori Düzenle"><i class="fa fa-edit"></i></a>
+                                         <a category-id="{{$category->id}}" category-name="{{$category->name}}"  category-count="{{$category->categoryCount()}}" class="btn btn-sm btn-danger text-white remove-click" title="Kategori Sil"><i class="fa fa-times"></i></a>
                                     </td>
                                 </tr>
                             @endforeach
@@ -60,6 +61,30 @@
                     </div>
             </div> 
        </div>
+  </div>
+  <!-- Modal -->
+<div class="modal fade" id="removeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Kategori Sil</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="body"> 
+            <div class="alert alert-danger" id="article-alert"></div>
+      </div>
+      <form action="{{route('admin.category.delete')}}" method="post">
+        @csrf
+         <input type="hidden" name="id" id="remove-id">
+         <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+            <button id="deleteButton" type="submit" class="btn btn-primary">Sil</button>
+         </div> 
+      </form>
+     
+    </div>
   </div>
 <!-- Modal -->
 <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -85,9 +110,10 @@
                 </div>
             </form>      
       </div>
-  
     </div>
   </div>
+
+
 @endsection
 @section('css')
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
@@ -96,6 +122,34 @@
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <script>
       $(function () {
+
+
+    //Kategoriye ait kaç tane makale var,sayısını al,bilgilendirme mesajı ver.
+          $('.remove-click').click(function(){
+              id = $(this)[0].getAttribute('category-id');
+              count = $(this)[0].getAttribute('category-count');
+              name = $(this)[0].getAttribute('category-name');
+    
+              if(id == 1){
+                $('#article-alert').html(name+' kategorisi sabit kategoridir.Silinen diğer kategorilere ait makaleler bu kategoriye eklenecektir.');
+                $('#deleteButton').hide();
+                $('#body').show();
+                $('#removeModal').modal();
+                return;
+              }
+              $('#deleteButton').show();
+              $('#remove-id').val(id);
+              $('#article-alert').html('');
+              $('#body').hide();
+              //category-id ' e ait makale varsa alert mesajı ver
+              if(count>0){
+                  $('#article-alert').html('Bu kategoriye ait '+count+' makale bulunmaktadır.Silmek istediğinize emin misiniz?');
+                  $('#body').show();
+              }
+              $('#removeModal').modal();
+               
+          });
+
           //id ye ait data var mı kontrol et,varsa verileri console da göster
 
           $('.edit-click').click(function(){
@@ -113,6 +167,7 @@
             });
 
           })
+    
           $('.switch').change(function () {
               //sınıf olarak adlandırdığımız için array oluşturuyor , o yüzden 0. indexteki arrayden id yi alıyoruz.
               id = $(this)[0].getAttribute('category-id');

@@ -35,6 +35,7 @@ Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function ()
     Route::get('kategori/state','Back\CategoryController@switch')->name('category.switch');
     Route::get('kategori/getData','Back\CategoryController@getData')->name('category.getdata');
     Route::post('kategori/update','Back\CategoryController@update')->name('category.update');
+    Route::post('kategori/delete','Back\CategoryController@delete')->name('category.delete');
 
     Route::get('cikis','Back\AuthController@logout')->name('logout');
 });
