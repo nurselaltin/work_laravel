@@ -36,6 +36,11 @@ Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function ()
     Route::get('kategori/getData','Back\CategoryController@getData')->name('category.getdata');
     Route::post('kategori/update','Back\CategoryController@update')->name('category.update');
     Route::post('kategori/delete','Back\CategoryController@delete')->name('category.delete');
+    
+    //Sayfa Routes
+    Route::get('sayfa','Back\PageController@index')->name('page.index');
+    Route::post('sayfa/create','Back\PageController@create')->name('page.create');
+    Route::get('/switch','Back\PageController@switch')->name('page.switch');
 
     Route::get('cikis','Back\AuthController@logout')->name('logout');
 });

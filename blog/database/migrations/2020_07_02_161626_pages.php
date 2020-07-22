@@ -20,6 +20,7 @@ class Pages extends Migration
             $table->longText('content');
             $table->string('slug');
             $table->integer('order');
+            $table->integer('state')->default('1');
             $table->timestamps();
         });
     }
