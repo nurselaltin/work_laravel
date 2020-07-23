@@ -23,7 +23,7 @@ Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function ()
     Route::get('panel','Back\Dashboard@index')->name('dashboard');
     Route::get('/articles/trashed','Back\ArticleController@trashed')->name('trashed.articles');
     Route::resource('makaleler','Back\ArticleController');
-    Route::get('/switch','Back\ArticleController@switch')->name('switch');
+    Route::get('/switch','Back\ArticleController@switch')->name('makaleler.switch');
     Route::get('/delete/{id}','Back\ArticleController@delete')->name('delete.article');
     Route::get('/deleteArticles/{id}','Back\ArticleController@hardDelete')->name('hardDelete.article');
     Route::get('/recover/{id}','Back\ArticleController@recover')->name('recover');
@@ -39,7 +39,11 @@ Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function ()
     
     //Sayfa Routes
     Route::get('sayfa','Back\PageController@index')->name('page.index');
-    Route::post('sayfa/create','Back\PageController@create')->name('page.create');
+    Route::get('sayfalar/create','Back\PageController@create')->name('page.create');
+    Route::post('sayfalar/olustur','Back\PageController@post')->name('page.post');
+    Route::get('sayfalar/duzenle/{id}','Back\PageController@edit')->name('page.edit');
+    Route::post('sayfalar/guncelle/{id}','Back\PageController@update')->name('page.update');
+    Route::get('sayfalar/sil/{id}','Back\PageController@delete')->name('page.delete');
     Route::get('/switch','Back\PageController@switch')->name('page.switch');
 
     Route::get('cikis','Back\AuthController@logout')->name('logout');

@@ -61,7 +61,7 @@
             </a>
             <div id="collapsePage" class="collapse @if(Request::segment(2) == "sayfalar") show @endif" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Makale İşlemleri</h6>
+                    <h6 class="collapse-header">Sayfa İşlemleri</h6>
                     <a class="collapse-item @if(Request::segment(2) == "sayfalar" and !Request::segment(3)) active @endif" href="{{route('admin.page.index')}}">Tüm Sayfalar</a>
                     <a class="collapse-item @if(Request::segment(3)=="create") active @endif"  href="{{route('admin.page.create')}}">Sayfa Oluştur</a>
                 </div>

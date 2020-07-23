@@ -29,9 +29,9 @@
                                 <input class="switch" type="checkbox" @if($page->state == 1)  checked @endif  page-id="{{$page->id}}" data-toggle="toggle" data-on="Aktif" data-off="Pasif" data-style="slow" data-onstyle="success" data-offstyle="danger">
                             </td>
                             <td>
-                                 <a target="_blank" href="{{route('page',$page->slug)}}"  title="Görüntüle" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a>
-                                <a href="" title="Düzenle" class="btn btn-sm btn-primary"><i class="fa fa-pen"></i></a>
-                                <a href="" title="Sil" class="btn btn-sm btn-danger"><i class="fa fa-times"></i></a>
+                                <a target="_blank" href="{{route('page',$page->slug)}}"  title="Görüntüle" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a>
+                                <a href="{{route('admin.page.edit',$page->id)}}" title="Düzenle" class="btn btn-sm btn-primary"><i class="fa fa-pen"></i></a>
+                                <a href="{{route('admin.page.delete',$page->id)}}" title="Sil" class="btn btn-sm btn-danger"><i class="fa fa-times"></i></a>
                             </td>
                         </tr>
                     @endforeach

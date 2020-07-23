@@ -166,6 +166,7 @@ class ArticleController extends Controller
         }
         //Veritabanından yazıyı sil
         $article->forceDelete();
+        toastSuccess('Sayfa başarıyla silindi');
         return redirect()->back();
     }
 

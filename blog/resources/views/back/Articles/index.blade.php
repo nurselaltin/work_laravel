@@ -59,10 +59,7 @@
               //sınıf olarak adlandırdığımız için array oluşturuyor , o yüzden 0. indexteki arrayden id yi alıyoruz.
               id = $(this)[0].getAttribute('article-id');
               state = $(this).prop('checked');
-              //get metoduylada id mizi articlescontroller>switch metoduna gönderiyoruz
-              $.get('{{route('admin.switch')}}',{id:id, state:state},function (data,status) {
-                  console.log(data);
-              });
+
 
 
           });
