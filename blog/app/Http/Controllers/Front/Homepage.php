@@ -8,6 +8,7 @@ use App\Models\Category;
 use App\Models\Page;
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Mail;
 
 
 class Homepage extends Controller
@@ -62,13 +63,27 @@ class Homepage extends Controller
     }
     public  function  contactPost(Request  $request){
 
-        $contact = new Contact;
 
-        $contact->fullname = $request->fullname;
-        $contact->email = $request->email;
-        $contact->message = $request->message;
-        $contact->konu = $request->konu;
-        $contact->save();
+
+         Mail::send([],[],function ($message) use($request){
+             $message->from('iletisim@hotmail.com','Blog Sitesi');
+             $message->to('nursel@hotmail.com');
+             $message->setBody('Mesajı gönderen :'.$request->fullname.'</br>
+                                Mesajı Gönderen Mail : '.$request->email.'<br/>
+                                Mesaj Konusu: '.$request->topic.'<br/>
+                                Mesaj : '.$request->message.'<br/>
+                                Mesaj Gönderilme Tarihi:'.now().'','text/html'
+                                );
+             $message->subject($request->fullname.' tarafından mesaj gönderildi');
+         });
+
+
+        $contact = new Contact;
+       /*$contact->fullname = $request->fullname;
+       $contact->email = $request->email;
+       $contact->message = $request->message;
+       $contact->konu = $request->konu;
+       $contact->save();*/
         return redirect()->route('contact')->with('success','Mesajınız bize iletildi.Teşekkür ederiz.');
 
 

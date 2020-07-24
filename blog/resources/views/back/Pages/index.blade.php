@@ -20,7 +20,7 @@
                     </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody id="orders">
                     @foreach($pages as $page)
                         <tr>
                             <td><img src="{{$page->image}}" width="200"></td>
