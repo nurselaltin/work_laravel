@@ -7,7 +7,7 @@ class DatabaseSeeder extends Seeder
 {
     /**
      * Seed the application's database.
-     *
+     *php
      * @return void
      */
     public function run()
@@ -16,5 +16,6 @@ class DatabaseSeeder extends Seeder
          $this->call(ArticlesSeeder::class);
          $this->call(PageSeeder::class);
          $this->call(AdminSeeder::class);
+         $this->call(SettingSeeder::class);
     }
 }

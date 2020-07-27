@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Page;
 use App\Models\Contact;
+use App\Models\Setting;
 use Illuminate\Http\Request;
 use Mail;
 
@@ -15,8 +16,13 @@ class Homepage extends Controller
 {
     function __construct()
     {
+
         view()->share('pages',Page::orderBy('created_at','ASC')->get());
         view()->share('categories', Category::inRandomOrder()->get());
+        if(Setting::find(1)->active == 0){
+
+            return redirect()->to('site-bakimda')->send();
+        };
     }
 
     function  index(){

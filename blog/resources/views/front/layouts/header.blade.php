@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>@yield('title','Blog Sitesi')</title>
+    <title>@yield('title') - {{$setting->title}}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('front/')}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

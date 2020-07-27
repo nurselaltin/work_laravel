@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('site-bakimda',function (){
+    return view('front.offline');
+});
+
+
 //Giriş yapılmışsa tekrardan  panele yönlendir
 Route::prefix('admin')->name('admin.')->middleware('isLogin')->group(function (){
     Route::get('giris','Back\AuthController@login')->name('login');
@@ -45,6 +50,11 @@ Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function ()
     Route::post('sayfalar/guncelle/{id}','Back\PageController@update')->name('page.update');
     Route::get('sayfalar/sil/{id}','Back\PageController@delete')->name('page.delete');
     Route::get('/switch','Back\PageController@switch')->name('page.switch');
+
+    //Ayarlar Route
+
+    Route::get('config','Back\ConfigController@index')->name('config.index');
+    Route::post('config','Back\ConfigController@save')->name('config.save');
 
     Route::get('cikis','Back\AuthController@logout')->name('logout');
 });
